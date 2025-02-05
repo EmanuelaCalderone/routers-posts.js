@@ -1,0 +1,29 @@
+{
+  "name": "routers-posts",
+  "version": "1.0.0",
+  "description": "post list",
+  "main": "app.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/EmanuelaCalderone/routers-posts.js.git"
+  },
+  "keywords": [
+    "post",
+    "blog",
+    "node",
+    "express",
+    "routing"
+  ],
+  "author": "Emanuela Calderone",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/EmanuelaCalderone/routers-posts.js/issues"
+  },
+  "homepage": "https://github.com/EmanuelaCalderone/routers-posts.js#readme",
+  "dependencies": {
+    "express": "^4.21.2"
+  }
+}
