@@ -4,16 +4,21 @@ const express = require('express')
 //creo la variabile router
 const router = express.Router();
 
+//importo posts_items
+const items = require("../items/posts_items")
+
 // rotte di CRUD dei post
 
 // index
 router.get('/', function (req, res) {
-    res.send('Lista dei post');
+    //restituisco i post in formato json (bonus)
+    res.json(items);
 });
 
 // show
 router.get('/:id', function (req, res) {
-    res.send(`Mostra post con ID: ${req.params.id}`);
+     //restituisco il singolo post in formato json (bonus)
+    res.json(items[req.params.id]);
 });
 
 // store

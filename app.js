@@ -23,5 +23,5 @@ app.use("/posts", postRouter)
 
 //avvio del server sulla porta specificata
 app.listen(port, () => {
-    console.log(`Server in ascolto su ${port}`);
+    console.log(`Server in ascolto su http://localhost:${port}`);
 })
